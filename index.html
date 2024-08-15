@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project_Creater_krishna</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Playwrite+BE+VLG:wght@100..400&display=swap"
+      rel="stylesheet" />
+
+      <style>
+        html{
+    font-size: 16px;
+}
+body{
+    background:#fff8f0;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    color: #55206D;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: "League Spartan", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #190D37;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    position: relative;
+    margin-bottom: 55px;
+}
+h2{
+    font-family: "League Spartan", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #000000;
+}
+
+.bigtext{
+    color: #331E6A;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+#hero-section{
+    display: flex;
+    max-width: 1060;
+    margin: 0 auto;
+    margin: 0 auto 48px auto;
+}
+
+#hero-text{
+    width: 60%;
+    padding: 32px 20px 32px 20px;
+}
+
+
+#hero-image-width{
+    width: 50%;
+}
+#hero-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px 5px 5px 70px;
+    border-bottom-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+}
+
+.salltext{
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    color: #000000;
+}
+
+#hi-and-name{
+    margin-top: 20px;
+}
+
+#contact-button{
+    height: 44px;
+    width: 140px;
+    border-radius: 12px;
+    background-color: #0f0e0e2f;
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+#pricing-section{
+    max-width: 1060px;
+    font-family: Poppins;
+    margin: 48px auto;
+}
+
+.overtitle{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #2858ff;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.section-heading{
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.section-subtitle{
+    text-align: center;
+    margin: 8px auto 48px auto;
+    max-width: 700px;
+    
+}
+#pricing-boxes{
+    display: flex;
+}
+.pricing-box{
+    width: 33.33%
+}
+
+.pricing-card{ 
+    background-color: #FFFFFF;
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: 6px 2px 25px -9px #0000001A;
+    padding: 20px;
+}
+
+.service {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight:500;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #2858FF;
+}
+
+.price{
+   font-family: Poppins;
+   font-size: 30px;
+   margin-top: 8px;
+   font-weight: 700;
+   line-height: 54px;
+   color: #000000;
+}
+
+.prie-pre-page{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #ac4646;
+}
+.service-description{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #8B8B8B;
+    margin-top: 8PX;
+}
+
+.service-benefits{
+    padding: 0;
+    list-style-type: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #05052c;
+} 
+
+.service-benefits li{
+    margin-bottom: 8px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #0e0000;
+
+}
+
+.service-contact-button{
+    width: 100%;
+    height: 44px;
+    border-radius: 40px;
+    border: 2px solid #140505;
+    background-color: #FFFFFF;
+
+    color: #000000;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.service-contact-button:hover{
+    background-color: #2f2f2f;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.card-2{
+    background-color: yellow;
+}
+.card-2 .service {
+    color: #000000;
+}
+.card-2 li{
+    color: #000000BF;
+}
+
+.card-2 .prie-pre-page {
+    color: #00000085;
+}
+.card-2 .service-contact-button {
+    background-color: #2F2F2F;
+    color:  #ffffff;
+}
+
+.card-2 .service-contact-button:hover{
+    background-color: #FFFFFF;
+    color: #2F2F2F;
+}
+
+#footer{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    margin-top: 40px;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+}
+.checkmark {
+    width: 16px;
+    height: 16px;
+   margin-bottom: -5px;
+}
+
+#yellowline {
+    margin-top: -5px;
+    position: absolute;
+    z-index: -10;
+}
+      </style>
+  </head>
+  <body>
+    <!--HERO SECTION-->
+    <div id="hero-section">
+      <!--HERO TEXT PARTS-->
+      <div id="hero-text">
+        <!--EMAIL & PHONE-->
+        <div class="salltext">
+         <span>
+          <img src="https://th.bing.com/th/id/OIP.33clRl9YbrnzAY_tLpKiJAAAAA?pid=ImgDet&w=60&h=60&c=7&rs=1" alt="photo"width="19" height="20" style="margin-bottom: -4px;">
+          (+91) 9708550486
+         </span>
+          <div style="float: right">
+            <img src="https://th.bing.com/th?id=OIP.9P1ZkTU_HEvzYQcE_YZV1gHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="phone" height="20" width="20" style="margin-bottom: -5px;">
+            krishraj532@gmail.com
+          </div>
+        </div>
+
+        <!--NAME-->
+        <div id="hi-and-name">Hi, I'm Krish Raj</div>
+
+        <!--TITLE-->
+        <h1>
+         <div> Vellore Institute of Technology pvrovided this type course</div>
+         <img src="data:image/jpeg;base64,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" id="yellowline">
+         </h1>
+
+
+        <!--SUBTITLE-->
+        <div class="bigtext">
+          They specialize in building websites with WordPress. They are also
+          full-stack developers, meaning they can develop the front-end and
+          back-end of a website. A WordPress developer may be hired to enhance
+          the WordPress software or build a custom website for a client.
+        </div>
+
+        <!--BUTTON-->
+
+        <button id="contact-button">Contact Me</button>
+      </div>
+
+      <!--HERO IMAGE-->
+      <div id="hero-image-width">
+        <img id="hero-image" src="https://media.licdn.com/dms/image/v2/D5622AQGLFpKok2zqPg/feedshare-shrink_480/feedshare-shrink_480/0/1723706741950?e=1726704000&v=beta&t=UQIOvv3tPJAJgOpXp5HKijeY6x-BULRqyrJSBisqlRE" height="240" />
+      </div>
+    </div>
+
+    <!-- <div>
+      What I Do
+      <h2>With 10+ years of developer and designer experience</h2>
+    </div> -->
+    <!-- <div>Projects</div> -->
+    <div id="pricing-section">
+      <div class="overtitle">Pricing</div>
+
+
+      <h2 class="section-heading">
+        You can take a look at the pricing table based on the work I do.
+      </h2>
+
+      <div class="bigtext section-subtitle">
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus turpis
+        ligula, pellentesque a elit in, convallis laoreet metus. Sed aliquet
+        lacinia dicutum. In pharetra nunc nisi, ac aliquet est pretinm non.
+      </div>
+
+      <div id="pricing-boxes">
+
+        <div class="pricing-box">
+          <div class="pricing-card">
+         <div class="service">
+           PSD to HTML
+          </div>
+          <div class="price">
+             $99<span class="prie-pre-page">/Per page </span>
+          </div>
+          <div class="service-description">
+           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </div>
+          
+         
+           <ul class="service-benefits">
+              <li><img src="https://openclipart.org/image/2400px/svg_to_png/96259/checkbox-checked.png" class="checkmark">lorem ipsum lolor sit amet</li>
+              <li><img src="https://openclipart.org/image/2400px/svg_to_png/96259/checkbox-checked.png" class="checkmark">lorem ipsum lolor sit amet</li>
+              <li><img src="https://openclipart.org/image/2400px/svg_to_png/96259/checkbox-checked.png" class="checkmark">lorem ipsum lolor sit amet</li>
+              <li><img src="https://openclipart.org/image/2400px/svg_to_png/96259/checkbox-checked.png" class="checkmark">lorem ipsum lolor sit amet</li>
+              <li><img src="https://openclipart.org/image/2400px/svg_to_png/96259/checkbox-checked.png" class="checkmark">lorem ipsum lolor sit amet</li>
+              <li><img src="https://openclipart.org/image/2400px/svg_to_png/96259/checkbox-checked.png" class="checkmark">lorem ipsum lolor sit amet</li>
+            
+           </ul>
+          
+         <button class="service-contact-button">
+         Contact me
+        </button>
+         </div>
+        </div>
+
+        <div class="pricing-box">
+          <div class="pricing-card card-2">
+            <div class="service">
+              Sketch to HTML
+             </div>
+             <div class="price">
+                $199<span class="prie-pre-page">/Per page </span>
+             </div>
+             <div class="service-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+             </div>
+             
+            
+           <ul class="service-benefits">
+              <li><img src="https://openclipart.org/image/2400px/svg_to_png/96259/checkbox-checked.png" class="checkmark">lorem ipsum lolor sit amet</li>
+              <li><img src="https://openclipart.org/image/2400px/svg_to_png/96259/checkbox-checked.png" class="checkmark">lorem ipsum lolor sit amet</li>
+              <li><img src="https://openclipart.org/image/2400px/svg_to_png/96259/checkbox-checked.png" class="checkmark">lorem ipsum lolor sit amet</li>
+              <li><img src="https://openclipart.org/image/2400px/svg_to_png/96259/checkbox-checked.png" class="checkmark">lorem ipsum lolor sit amet</li>
+              <li><img src="https://openclipart.org/image/2400px/svg_to_png/96259/checkbox-checked.png" class="checkmark">lorem ipsum lolor sit amet</li>
+              <li><img src="https://openclipart.org/image/2400px/svg_to_png/96259/checkbox-checked.png" class="checkmark">lorem ipsum lolor sit amet</li>
+            
+           </ul>
+          
+         <button class="service-contact-button">
+         Contact me
+        </button>
+            </div>
+        </div>
+
+        <div class="pricing-box">
+          <div class="pricing-card">
+            <div class="service">
+             Figma to HTML
+             </div>
+             <div class="price">
+                $299 <span class="prie-pre-page">/Per page </span>
+             </div>
+             <div class="service-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+             </div>
+             
+          
+             <ul class="service-benefits">
+              <li><img src="https://openclipart.org/image/2400px/svg_to_png/96259/checkbox-checked.png" class="checkmark">lorem ipsum lolor sit amet</li>
+              <li><img src="https://openclipart.org/image/2400px/svg_to_png/96259/checkbox-checked.png" class="checkmark">lorem ipsum lolor sit amet</li>
+              <li><img src="https://openclipart.org/image/2400px/svg_to_png/96259/checkbox-checked.png" class="checkmark">lorem ipsum lolor sit amet</li>
+              <li><img src="https://openclipart.org/image/2400px/svg_to_png/96259/checkbox-checked.png" class="checkmark">lorem ipsum lolor sit amet</li>
+              <li><img src="https://openclipart.org/image/2400px/svg_to_png/96259/checkbox-checked.png" class="checkmark">lorem ipsum lolor sit amet</li>
+              <li><img src="https://openclipart.org/image/2400px/svg_to_png/96259/checkbox-checked.png" class="checkmark">lorem ipsum lolor sit amet</li>
+             </ul>
+            
+           <button class="service-contact-button">
+           Contact me
+          </button>
+            </div>
+        </div>
+
+        </div>
+
+    </div>
+
+  
+    <!-- <div>Questions</div> -->
+    <div id="footer">
+      Ferdi Sahin 🅾 2024. All Rights Reseerved.
+      </div>
+</html>
